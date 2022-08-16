@@ -18,7 +18,7 @@ const About = (props) => {
         <a href="#profile">
           <img
             className="godown"
-            src="./assets/Icons/downarrow.png"
+            src="assets/Icons/downarrow.png"
             alt="this is a downarrow"
           />
         </a>
@@ -29,7 +29,7 @@ const About = (props) => {
             <img
               className="goup"
               src="./assets/Icons/downarrow.png"
-              alt="this is a downarrow"
+              alt="this is an uparrow"
             />
           </a>
         </div>
@@ -74,7 +74,7 @@ const About = (props) => {
             <img
               className="goup"
               src="./assets/Icons/downarrow.png"
-              alt="this is a downarrow"
+              alt="this is an uparrow"
             />
           </a>
         </div>

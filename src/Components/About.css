@@ -149,7 +149,7 @@
   margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 130px;
-  background-color: #e8ebe4;
+  background-color: transparent;
   padding: 0 5px 0 5px;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -162,7 +162,7 @@
   transform: translateX(-50%);
 }
 
-.downbox {
+.godown {
   width: 50px;
 }
 
@@ -174,17 +174,19 @@
   margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 130px;
-  background-color: #e8ebe4;
+  background-color: transparent;
   padding: 0 5px 0 5px;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
+  transform: rotate(180deg);
 }
 
 .goupbox:hover {
   transform: scale(1.1);
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
+  transform: rotate(180deg);
 }
 
 .goup {
