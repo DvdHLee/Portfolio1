@@ -36,7 +36,7 @@ const Contact = (props) => {
             src="./assets/Icons/resume.png"
             alt="this is a resume icon"
           />
-          <a className="contactinfo" href="https://drive.google.com/file/d/1JBfBcH-nFSr1MUY4jOakQfIkx6GzTukU/view?usp=sharing" title="" target="_blank" rel="noreferrer noopener">Resume Download</a>
+          <a className="contactinfo" href="https://drive.google.com/file/d/1JBfBcH-nFSr1MUY4jOakQfIkx6GzTukU/view?usp=sharing" title="" target="_blank" rel="noreferrer noopener">Resume Link</a>
         </div>
       </div>
     </div>

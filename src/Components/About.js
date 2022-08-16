@@ -14,16 +14,25 @@ const About = (props) => {
         <Book color="dark" cover="Hover Me!" content="Click to see my latest project"></Book>
         <Book color="light" cover="Me too!" content="Click to see my resume"></Book>
       </div>
-      <div className="downarrowbox">
+      <div className="godownbox">
         <a href="#profile">
           <img
-            className="downarrow"
+            className="godown"
             src="./assets/Icons/downarrow.png"
             alt="this is a downarrow"
           />
         </a>
       </div>
       <div id="profile">
+        <div className="goupbox">
+          <a href="#top">
+            <img
+              className="goup"
+              src="./assets/Icons/downarrow.png"
+              alt="this is a downarrow"
+            />
+          </a>
+        </div>
         <div className="profilecontent">
           <div className="profileinfo">
             <img className="profilepic" src="./assets/Icons/profilepic.jpg" alt="this is a profile pic"></img>
@@ -48,9 +57,27 @@ const About = (props) => {
               Though my time in this field is not extensive, I have been able to learn and apply both frontend and backend
               technologies in awesome personal projects. I hope you have as much fun using them as I did building them!</p>
           </div>
+          <div className="godownbox">
+            <a href="#skills">
+              <img
+                className="godown"
+                src="./assets/Icons/downarrow.png"
+                alt="this is a downarrow"
+              />
+            </a>
+          </div>
         </div>
       </div>
       <div id="skills">
+        <div className="goupbox">
+          <a href="#profile">
+            <img
+              className="goup"
+              src="./assets/Icons/downarrow.png"
+              alt="this is a downarrow"
+            />
+          </a>
+        </div>
         <p className="skillstitle">Skills</p>
         <div className="skillscontent">
           <div className="skillcategory">
@@ -63,8 +90,6 @@ const About = (props) => {
                 <p>CSS3</p>
                 <p>Tailwind</p>
                 <p>NPM</p>
-              </div>
-              <div className="halflist">
                 <p>Java</p>
                 <p>SQL</p>
                 <p>REST API</p>
@@ -85,8 +110,6 @@ const About = (props) => {
                 <p>SolidWorks</p>
                 <p>OpenVSP</p>
                 <p>Figma</p>
-              </div>
-              <div className="halflist">
                 <p>Eclipse</p>
                 <p>VS Code</p>
                 <p>Git</p>
@@ -105,12 +128,10 @@ const About = (props) => {
                 <p>Trading Scalps</p>
                 <p>Think Or Swim</p>
                 <p>StreetSmart Edge</p>
-              </div>
-              <div className="halflist">
                 <p>Piano</p>
                 <p>Guitar</p>
                 <p>Trumpet</p>
-                <p>Synchronous Tutor</p>
+                <p>Synchronous Tutoring</p>
               </div>
             </div>
           </div>
