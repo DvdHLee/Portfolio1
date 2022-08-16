@@ -137,18 +137,18 @@ const Work = (props) => {
                 alt="this is a mealchewser icon"
               />
             </a>
-            <a className="projectitem" href="https://github.com/DvdHLee/portfolio" title="" target="_blank" rel="noreferrer noopener">
+            <a className="projectitem" href="https://github.com/DvdHLee/Portfolio" title="" target="_blank" rel="noreferrer noopener">
               <img
                 id="portfolioicon"
                 src="/assets/Icons/portfolio.svg"
                 alt="this is a portfolio icon"
               />
             </a>
-            <a className="projectitem" href="https://github.com/DvdHLee/iresume" title="" target="_blank" rel="noreferrer noopener">
+            <a className="projectitem" href="https://github.com/fasttrackd-student-work/spring-assessment-social-media-sprint-7-2022-team-2" title="" target="_blank" rel="noreferrer noopener">
               <img
-                id="iresumeicon"
-                src="/assets/Icons/iresume.svg"
-                alt="this is a iresume icon"
+                id="twittericon"
+                src="/assets/Icons/twittermockup.png"
+                alt="this is a twitter icon"
               />
             </a>
           </div>
@@ -160,11 +160,11 @@ const Work = (props) => {
                 alt="this is a a4a icon"
               />
             </a>
-            <a className="projectitem" href="comingsoon" title="" target="_blank" rel="noreferrer noopener">
+            <a className="projectitem" href="https://github.com/Totus-Alias" title="" target="_blank" rel="noreferrer noopener">
               <img
-                id="comingsoon"
-                src="/assets/Icons/comingsoon.svg"
-                alt="this is a coming soon icon"
+                id="TA"
+                src="/assets/Icons/TA.png"
+                alt="this is a TA placeholder"
               />
             </a>
           </div>
