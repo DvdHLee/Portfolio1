@@ -50,7 +50,7 @@ const Work = (props) => {
     return (
       <div className="work">
         <button className="backbutton" onClick={page0}>
-          <img className="backarrow" src="/assets/Icons/backarrow.png" alt="this is a back arrow"></img>
+          <img className="backarrow" src="./assets/Icons/backarrow.png" alt="this is a back arrow"></img>
         </button>
         <p className="categorytitle">Education</p>
         <div className="educationbody">
