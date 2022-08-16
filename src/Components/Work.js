@@ -28,19 +28,19 @@ const Work = (props) => {
           <div className="workcategory">
             <p className="workcategorytitle">Education</p>
             <button className="workbutton" onClick={page1}>
-              <img className="workicon" src="/assets/Icons/education.png" alt="this is an education icon"></img>
+              <img className="workicon" src="./assets/Icons/education.png" alt="this is an education icon"></img>
             </button>
           </div>
           <div className="workcategory">
             <p className="workcategorytitle">Experience</p>
             <button className="workbutton" onClick={page2}>
-              <img className="workicon" src="/assets/Icons/experience.png" alt="this is an education icon"></img>
+              <img className="workicon" src="./assets/Icons/experience.png" alt="this is an education icon"></img>
             </button>
           </div>
           <div className="workcategory">
             <p className="workcategorytitle">Projects</p>
             <button className="workbutton" onClick={page3}>
-              <img className="workicon" src="/assets/Icons/project.png" alt="this is an education icon"></img>
+              <img className="workicon" src="./assets/Icons/project.png" alt="this is an education icon"></img>
             </button>
           </div>
         </div>
@@ -133,21 +133,21 @@ const Work = (props) => {
             <a className="projectitem" href="https://arizonacoderz.github.io/meal-chewser/" title="" target="_blank" rel="noreferrer noopener">
               <img
                 id="mcicon"
-                src="/assets/Icons/mealchewser.png"
+                src="./assets/Icons/mealchewser.png"
                 alt="this is a mealchewser icon"
               />
             </a>
             <a className="projectitem" href="https://github.com/DvdHLee/Portfolio" title="" target="_blank" rel="noreferrer noopener">
               <img
                 id="portfolioicon"
-                src="/assets/Icons/portfolio.svg"
+                src="./assets/Icons/portfolio.svg"
                 alt="this is a portfolio icon"
               />
             </a>
             <a className="projectitem" href="https://github.com/fasttrackd-student-work/spring-assessment-social-media-sprint-7-2022-team-2" title="" target="_blank" rel="noreferrer noopener">
               <img
                 id="twittericon"
-                src="/assets/Icons/twittermockup.png"
+                src="./assets/Icons/twittermockup.png"
                 alt="this is a twitter icon"
               />
             </a>
@@ -156,14 +156,14 @@ const Work = (props) => {
             <a className="projectitem" href="https://drive.google.com/file/d/16ws097UPsKGsoiWp0mY3CRUhREOfvSxP/view?usp=sharing" title="" target="_blank" rel="noreferrer noopener">
               <img
                 id="africairicon"
-                src="/assets/Icons/africair.png"
+                src="./assets/Icons/africair.png"
                 alt="this is a a4a icon"
               />
             </a>
             <a className="projectitem" href="https://github.com/Totus-Alias" title="" target="_blank" rel="noreferrer noopener">
               <img
                 id="TA"
-                src="/assets/Icons/TA.png"
+                src="./assets/Icons/TA.png"
                 alt="this is a TA placeholder"
               />
             </a>

@@ -14,7 +14,7 @@ const About = (props) => {
         <a href="#profile">
           <img
             className="downarrow"
-            src="/assets/Icons/downarrow.png"
+            src="./assets/Icons/downarrow.png"
             alt="this is a downarrow"
           />
         </a>
@@ -22,14 +22,14 @@ const About = (props) => {
       <div id="profile">
         <div className="profilecontent">
           <div className="profileinfo">
-            <img className="profilepic" src="/assets/Icons/profilepic.jpg" alt="this is a profile pic"></img>
+            <img className="profilepic" src="./assets/Icons/profilepic.jpg" alt="this is a profile pic"></img>
             <p className="name">David Hyesung Lee</p>
             <div>
-              <img className="profileicon" src="/assets/Icons/ageicon.png" alt="this is an age icon"></img>
+              <img className="profileicon" src="./assets/Icons/ageicon.png" alt="this is an age icon"></img>
               <span>25 Years</span>
             </div>
             <div>
-              <img className="profileicon" src="/assets/Icons/locationicon.png" alt="this is a location icon"></img>
+              <img className="profileicon" src="./assets/Icons/locationicon.png" alt="this is a location icon"></img>
               <span>Phoenix, Arizona</span>
             </div>
           </div>
