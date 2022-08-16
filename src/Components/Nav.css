@@ -1,0 +1,48 @@
+.nav {
+  width: 100%;
+  z-index: 100;
+  position: relative;
+}
+
+.navbar {
+  width: 400px;
+  position: absolute;
+  right: 100px;
+  top: 40px;
+}
+
+.button {
+  margin: 0 20px;
+  padding: 10px 0;
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+  letter-spacing: 0.1rem;
+  color: #444444;
+  background-color: transparent;
+  border-style: none;
+  display: inline-block;
+  position: relative;
+}
+
+.button:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 5px;
+  left: 0;
+  background-color: #444444;
+  transform-origin: bottom right;
+  transition: transform 0.2s ease-out;
+}
+
+.button:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: #aaaaaa;
+}
+
+.button:hover {
+  color:#aaaaaa;
+}
