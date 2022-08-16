@@ -82,7 +82,7 @@ const Work = (props) => {
     return (
       <div className="work">
         <button className="backbutton" onClick={page0}>
-          <img className="backarrow" src="/assets/Icons/backarrow.png" alt="this is a back arrow"></img>
+          <img className="backarrow" src="./assets/Icons/backarrow.png" alt="this is a back arrow"></img>
         </button>
         <p className="categorytitle">Experience</p>
         <div className="experiencebody">
@@ -125,7 +125,7 @@ const Work = (props) => {
     return (
       <div className="work">
         <button className="backbutton" onClick={page0}>
-          <img className="backarrow" src="/assets/Icons/backarrow.png" alt="this is a back arrow"></img>
+          <img className="backarrow" src="./assets/Icons/backarrow.png" alt="this is a back arrow"></img>
         </button>
         <p className="categorytitle">Projects</p>
         <div className="projects">
