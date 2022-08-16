@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./About.css";
+import Book from './CSSAnimation/Book';
 
 const About = (props) => {
   return (
@@ -9,7 +10,10 @@ const About = (props) => {
         <p id="hi">I'm David!</p>
         <p id="jobtitle">a Web Developer</p>
       </div>
-      <div className="introanimation">Some Animation</div>
+      <div className="introanimation">
+        <Book color="dark" cover="Hover Me!" content="Click to see my latest project"></Book>
+        <Book color="light" cover="Me too!" content="Click to see my resume"></Book>
+      </div>
       <div className="downarrowbox">
         <a href="#profile">
           <img

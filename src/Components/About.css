@@ -28,10 +28,12 @@
 }
 
 .introanimation {
-  border: solid 1px black;
-  width: 900px;
+  width: 700px;
+  height: 300px;
   margin: 100px auto 0 auto;
-  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .downarrowbox {

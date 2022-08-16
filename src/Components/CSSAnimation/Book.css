@@ -1,0 +1,99 @@
+.book {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    perspective: 1000px;
+}
+
+.book:hover .cover {
+    transform: rotateX(10deg) rotateY(-180deg);
+}
+
+.book:hover .page {
+    transform: rotateX(10deg) rotateY(-180deg);
+    z-index: 2;
+}
+
+.cover {
+    z-index: 1;
+    transition: all 3s;
+}
+
+.cover p {
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.back-cover {
+    z-index: -3;
+}
+
+.cover, .back-cover {
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 1px 1px 15px rgb(112, 112, 112);
+    transform: rotateX(20deg);
+    transform-origin: center left;
+}
+
+.page, .contentpage {
+    position: absolute;
+    height: 240px;
+    width: 190px;
+    border-radius: 0 15px 15px 0;
+    transform: rotateX(20deg);
+    z-index: -1;
+    transform-origin: center left;
+}
+
+.page:nth-child(2) {
+    transition-duration: 2s;
+}
+
+.page:nth-child(3) {
+    transition-duration: 1.5s;
+}
+
+.page:nth-child(4) {
+    transition-duration: 1s;
+}
+
+.book:hover .page:nth-child(2) {
+    transition-duration: 5s
+}
+
+.book:hover .page:nth-child(3) {
+    transition-duration: 4.5s
+}
+
+.book:hover .page:nth-child(4) {
+    transition-duration: 4s
+}
+
+.contentpage {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 35px;
+    position: relative;
+    z-index: -2;
+}
+
+.contentpage a {
+    width: 80%;
+    color: inherit;
+}
+
+#dark {
+    background-color: #202020;
+    color: white;
+}
+
+#light {
+    background-color: rgb(245, 245, 245);
+    color: black;
+}
