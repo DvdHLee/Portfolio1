@@ -9,11 +9,12 @@
   display: inline-block;
   width: fit-content;
   height: fit-content;
-  margin: 180px auto 0 auto;
+  min-height: 980px;
+  position: relative;
 }
 
 #hi {
-  margin: 0 auto;
+  margin: 180px auto 0 auto;
   font-family: "Limelight", cursive;
   font-size: 70px;
   width: fit-content;
@@ -37,11 +38,13 @@
 }
 
 #profile {
-  position: absolute;
-  top: 100vh;
+  position: relative;
   width: 100%;
-  height: 100vh;
+  height: 1000px;
   background-color: #9af0be;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .profilecontent {
@@ -91,11 +94,13 @@
 }
 
 #skills {
-  position: absolute;
-  top: 200vh;
+  position: relative;
   width: 100%;
-  height: 100vh;
+  height: 1000px;
   background-color: #e8ebe4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .skillscontent {
@@ -105,9 +110,9 @@
 }
 
 .skillstitle {
+  position: absolute;
   font-size: 45px;
-  margin: 50px auto 40px auto;
-  padding-top: 200px;
+  top: 200px;
 }
 
 .skillcategory {
@@ -141,6 +146,12 @@
   border: rgb(192, 192, 192) solid 0.5px;
 }
 
+.godownboxcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .godownbox {
   position: absolute;
   top: 730px;
@@ -151,15 +162,10 @@
   margin-bottom: 130px;
   background-color: transparent;
   padding: 0 5px 0 5px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
 }
 
 .godownbox:hover {
   transform: scale(1.1);
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
 }
 
 .godown {
@@ -176,17 +182,10 @@
   margin-bottom: 130px;
   background-color: transparent;
   padding: 0 5px 0 5px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  transform: rotate(180deg);
 }
 
 .goupbox:hover {
   transform: scale(1.1);
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  transform: rotate(180deg);
 }
 
 .goup {

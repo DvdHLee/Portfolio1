@@ -9,19 +9,21 @@ const About = (props) => {
       <div id="intro">
         <p id="hi">I'm David!</p>
         <p id="jobtitle">a Web Developer</p>
-      </div>
-      <div className="introanimation">
-        <Book color="dark" cover="Hover Me!" content="Click to see my latest project"></Book>
-        <Book color="light" cover="Me too!" content="Click to see my resume"></Book>
-      </div>
-      <div className="godownbox">
-        <a href="#profile">
-          <img
-            className="godown"
-            src="assets/Icons/downarrow.png"
-            alt="this is a downarrow"
-          />
-        </a>
+        <div className="introanimation">
+          <Book color="dark" cover="Hover Me!" content="Click to see my latest project"></Book>
+          <Book color="light" cover="Me too!" content="Click to see my resume"></Book>
+        </div>
+        <div className="godownboxcenter">
+        <div className="godownbox">
+          <a href="#profile">
+            <img
+              className="godown"
+              src="/assets/downarrow.png"
+              alt="this is a downarrow f"
+            />
+          </a>
+        </div>
+        </div>
       </div>
       <div id="profile">
         <div className="goupbox">
@@ -57,7 +59,8 @@ const About = (props) => {
               Though my time in this field is not extensive, I have been able to learn and apply both frontend and backend
               technologies in awesome personal projects. I hope you have as much fun using them as I did building them!</p>
           </div>
-          <div className="godownbox">
+        </div>
+        <div className="godownbox">
             <a href="#skills">
               <img
                 className="godown"
@@ -66,7 +69,6 @@ const About = (props) => {
               />
             </a>
           </div>
-        </div>
       </div>
       <div id="skills">
         <div className="goupbox">
