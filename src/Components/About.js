@@ -14,15 +14,15 @@ const About = (props) => {
           <Book color="light" cover="Me too!" content="Click to see my resume"></Book>
         </div>
         <div className="godownboxcenter">
-        <div className="godownbox">
-          <a href="#profile">
-            <img
-              className="godown"
-              src="/assets/downarrow.png"
-              alt="this is a downarrow f"
-            />
-          </a>
-        </div>
+          <div className="godownbox">
+            <a href="#profile">
+              <img
+                className="godown"
+                src="./assets/Icons/downarrow.png"
+                alt="this is a downarrow f"
+              />
+            </a>
+          </div>
         </div>
       </div>
       <div id="profile">
@@ -61,14 +61,14 @@ const About = (props) => {
           </div>
         </div>
         <div className="godownbox">
-            <a href="#skills">
-              <img
-                className="godown"
-                src="./assets/Icons/downarrow.png"
-                alt="this is a downarrow"
-              />
-            </a>
-          </div>
+          <a href="#skills">
+            <img
+              className="godown"
+              src="./assets/Icons/downarrow.png"
+              alt="this is a downarrow"
+            />
+          </a>
+        </div>
       </div>
       <div id="skills">
         <div className="goupbox">
