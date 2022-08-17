@@ -9,7 +9,7 @@
   display: inline-block;
   width: fit-content;
   height: fit-content;
-  min-height: 980px;
+  min-height: 969px;
   position: relative;
 }
 
@@ -40,7 +40,7 @@
 #profile {
   position: relative;
   width: 100%;
-  height: 1000px;
+  height: 969px;
   background-color: #9af0be;
   display: flex;
   justify-content: center;
@@ -96,7 +96,7 @@
 #skills {
   position: relative;
   width: 100%;
-  height: 1000px;
+  height: 969px;
   background-color: #e8ebe4;
   display: flex;
   justify-content: center;
