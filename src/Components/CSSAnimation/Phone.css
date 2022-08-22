@@ -1,0 +1,115 @@
+.phone {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    border: solid black 1px;
+    width: 180px;
+    height: 350px;
+    border-radius: 30px;
+    background-color: rgb(37, 37, 37);
+}
+
+.screen {
+    background-color: rgb(133, 182, 245);
+    width: 170px;
+    height: 270px;
+    margin: 0 auto;
+}
+
+.screencover {
+    position: absolute;
+    left: 5px;
+    background-color: rgb(24, 24, 24);
+    width: 170px;
+    height: 270px;
+    margin: 0 auto;
+    z-index: 2;
+    transition: all 1s ease-in 2s;
+}
+
+.screencover:hover {
+    background-color: transparent;
+    transition: all 1s;
+}
+
+.speaker {
+    position: absolute;
+    top: 15px;
+    left: 70px;
+    width: 40px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: rgb(82, 82, 82);
+}
+
+.homebutton {
+    position: absolute;
+    bottom: 8px;
+    left: 78px;
+    width: 22px;
+    height: 22px;
+    border-radius: 15px;
+    border: rgb(82, 82, 82) solid 2px;
+}
+
+.phonetitle {
+    font-size: 20px;
+    margin: 10px 0 20px 0;
+}
+
+.appsrow {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto 0 auto;
+}
+
+.app {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.applinkspacer {
+    margin-top: 50px;
+}
+
+#mcapp {
+    width: 100%;
+    height: 100%;
+    background-color: #5c7cbe;
+    border-radius: 10px;
+}
+
+#mcappimg {
+    width: 30px;
+    height: 40px;
+    padding: 5px;
+}
+
+#portapp {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+#portappimg {
+    margin-top: 3px;
+    width: 40px;
+}
+
+#a4aapp {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#a4aappimg {
+    width: 50px;
+    height: 30px;
+    padding-top: 8px;
+}

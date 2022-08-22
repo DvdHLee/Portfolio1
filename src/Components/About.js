@@ -2,6 +2,7 @@ import React from "react";
 
 import "./About.css";
 import Book from './CSSAnimation/Book';
+import Phone from './CSSAnimation/Phone';
 
 const About = (props) => {
   return (
@@ -10,16 +11,17 @@ const About = (props) => {
         <p id="hi">I'm David!</p>
         <p id="jobtitle">a Web Developer</p>
         <div className="introanimation">
-          <Book color="dark" cover="Hover Me!" content="Click to see my latest project"></Book>
-          <Book color="light" cover="Me too!" content="Click to see my resume"></Book>
+          <Phone></Phone>
+          <p className="hover">&#60;-Hover-&#62; <br></br> and Click</p>
+          <Book></Book>
         </div>
         <div className="godownboxcenter">
           <div className="godownbox">
             <a href="#profile">
               <img
                 className="godown"
-                src="./assets/Icons/downarrow.png"
-                alt="this is a downarrow f"
+                src="assets/Icons/downarrow.png"
+                alt="this is a search"
               />
             </a>
           </div>
@@ -30,21 +32,21 @@ const About = (props) => {
           <a href="#top">
             <img
               className="goup"
-              src="./assets/Icons/downarrow.png"
+              src="/assets/Icons/downarrow.png"
               alt="this is an uparrow"
             />
           </a>
         </div>
         <div className="profilecontent">
           <div className="profileinfo">
-            <img className="profilepic" src="./assets/Icons/profilepic.jpg" alt="this is a profile pic"></img>
+            <img className="profilepic" src="/assets/Icons/profilepic.jpg" alt="this is a profile pic"></img>
             <p className="name">David Hyesung Lee</p>
             <div>
-              <img className="profileicon" src="./assets/Icons/ageicon.png" alt="this is an age icon"></img>
+              <img className="profileicon" src="/assets/Icons/ageicon.png" alt="this is an age icon"></img>
               <span>25 Years</span>
             </div>
             <div>
-              <img className="profileicon" src="./assets/Icons/locationicon.png" alt="this is a location icon"></img>
+              <img className="profileicon" src="/assets/Icons/locationicon.png" alt="this is a location icon"></img>
               <span>Phoenix, Arizona</span>
             </div>
           </div>
@@ -64,7 +66,7 @@ const About = (props) => {
           <a href="#skills">
             <img
               className="godown"
-              src="./assets/Icons/downarrow.png"
+              src="/assets/Icons/downarrow.png"
               alt="this is a downarrow"
             />
           </a>
@@ -75,65 +77,119 @@ const About = (props) => {
           <a href="#profile">
             <img
               className="goup"
-              src="./assets/Icons/downarrow.png"
+              src="/assets/Icons/downarrow.png"
               alt="this is an uparrow"
             />
           </a>
         </div>
-        <p className="skillstitle">Skills</p>
-        <div className="skillscontent">
-          <div className="skillcategory">
-            <p className="skillcategorytitle">Web Development</p>
-            <div className="skillslist">
-              <div className="halflist">
-                <p>React</p>
-                <p>JavaScript</p>
-                <p>HTML5</p>
-                <p>CSS3</p>
-                <p>Tailwind</p>
-                <p>NPM</p>
-                <p>Java</p>
-                <p>SQL</p>
-                <p>REST API</p>
-                <p>Spring Boot</p>
-                <p>Node</p>
-                <p>Redux</p>
+        <div className="skillslist">
+          <div className="skillscategory">
+            <p className="categorytitle">Web Development</p>
+            <div className="skillscolumn">
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/react.png" alt="react icon"></img>
+                <p className="skilltitle">React</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/redux.png" alt="redux icon"></img>
+                <p className="skilltitle">Redux</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/javascript.png" alt="js icon"></img>
+                <p className="skilltitle">JavaScript</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/html.png" alt="html icon"></img>
+                <p className="skilltitle">HTML5</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/css.png" alt="css icon"></img>
+                <p className="skilltitle">CSS5</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/tailwind.png" alt="tailwind icon"></img>
+                <p className="skilltitle">Tailwind</p>
+              </div>
+            </div>
+            <div className="skillscolumn">
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/java.png" alt="java icon"></img>
+                <p className="skilltitle">Java</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/sql.png" alt="sql icon"></img>
+                <p className="skilltitle">SQL</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/rest.png" alt="rest icon"></img>
+                <p className="skilltitle">REST API</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/springboot.png" alt="spring boot icon"></img>
+                <p className="skilltitle">Spring Boot</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/postgres.png" alt="postgres icon"></img>
+                <p className="skilltitle">PostgreSQL</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/node.png" alt="node icon"></img>
+                <p className="skilltitle">NodeJS</p>
               </div>
             </div>
           </div>
-          <div className="divider"></div>
-          <div className="skillcategory">
-            <p className="skillcategorytitle">Software</p>
-            <div className="skillslist">
-              <div className="halflist">
-                <p>MATLAB</p>
-                <p>Mathematica</p>
-                <p>Mission Planner</p>
-                <p>SolidWorks</p>
-                <p>OpenVSP</p>
-                <p>Figma</p>
-                <p>Eclipse</p>
-                <p>VS Code</p>
-                <p>Git</p>
-                <p>PGAdmin</p>
-                <p>PostgreSQL</p>
-                <p>IntelliJ</p>
+          <div className="skillscategory">
+            <p className="categorytitle">Software</p>
+            <div className="skillscolumn">
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/github.png" alt="git icon"></img>
+                <p className="skilltitle">Github</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/eclipse.png" alt="eclipse"></img>
+                <p className="skilltitle">Eclipse</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/vscode.png" alt="vs code icon"></img>
+                <p className="skilltitle">VS Code</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/intellij.png" alt="intellij icon"></img>
+                <p className="skilltitle">IntelliJ</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/pgadmin.png" alt="pgadmin icon"></img>
+                <p className="skilltitle">PGAdmin</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/figma.png" alt="figma icon"></img>
+                <p className="skilltitle">Figma</p>
               </div>
             </div>
-          </div>
-          <div className="divider"></div>
-          <div className="skillcategory">
-            <p className="skillcategorytitle">Other</p>
-            <div className="skillslist">
-              <div className="halflist">
-                <p>Technical Analysis</p>
-                <p>Trading Scalps</p>
-                <p>Think Or Swim</p>
-                <p>StreetSmart Edge</p>
-                <p>Piano</p>
-                <p>Guitar</p>
-                <p>Trumpet</p>
-                <p>Synchronous Tutoring</p>
+            <div className="skillscolumn">
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/matlab.png" alt="matlab icon"></img>
+                <p className="skilltitle">MATLAB</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/mathematica.png" alt="mathematica icon"></img>
+                <p className="skilltitle">Mathematica</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/solidworks.png" alt="solidworks icon"></img>
+                <p className="skilltitle">SolidWorks</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/openvsp.png" alt="openvsp icon"></img>
+                <p className="skilltitle">OpenVSP</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/tos.png" alt="tos icon"></img>
+                <p className="skilltitle">ThinkorSwim</p>
+              </div>
+              <div className="skillentry">
+                <img className="skillimg" src="/assets/Icons/sse.png" alt="sse icon"></img>
+                <p className="skilltitle">StreetSmart</p>
               </div>
             </div>
           </div>
