@@ -1,35 +1,39 @@
 .contact  {
     width: 100%;
-    height: 100%;
-    background-color: #CBE0E2;
+    height: fit-content;
+    background-color: #84bec9;
     position: relative;
+    min-height: 969px;
     display: flex;
 }
 
-.contactblock {
-    width: 470px;
-    height: 400px;
-    margin: 0 auto;
-    margin-top: 200px;
-    padding: 50px 0;
+.contactdiv {
+    width: 100%;
+    display: block;
 }
 
-.contactrow {
-    float: left;
-    padding-top: 35px;
+.iconlinks {
+    width: fit-content;
+    height: fit-content;
+    margin: 150px auto 0 auto;
 }
 
-.icon {
-    width: 50px;
-    height: 50px;
-    display: inline-block;
-    padding-right: 50px;
+.contactlink {
+    margin: 0 50px;
 }
 
-.contactinfo {
-    display: inline-block;
-    transform: translateY(-70%);
-    font-size: 25px;
-    letter-spacing: 0.1rem;
-    color: #444444;
+.contactlinkimg {
+    width: 60px;
+    height: 60px;
+}
+
+.mailbutton {
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    background: transparent;
+}
+
+.mailbutton:hover {
+    cursor: pointer;
 }

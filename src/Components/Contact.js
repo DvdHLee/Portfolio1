@@ -1,42 +1,29 @@
 import React from "react";
 
 import "./Contact.css";
+import ContactUs from './ContactUs';
 
 const Contact = (props) => {
+
+  const clickedmail = () => {
+    navigator.clipboard.writeText("dvdhyelee@gmail.com");
+    alert("\"dvdhyelee@gmail.com\" copied to clipboard!");
+  }
+
   return (
     <div className="contact">
-      <div className="contactblock">
-        <div className="contactrow">
-          <img
-            className="icon"
-            src="./assets/Icons/mail.png"
-            alt="this is a mail icon"
-          />
-          <p className="contactinfo">dvdhyelee@gmail.com</p>
-        </div>
-        <div className="contactrow">
-          <img
-            className="icon"
-            src="./assets/Icons/linkedin.png"
-            alt="this is a linkedin icon"
-          />
-          <a className="contactinfo" href="https://www.linkedin.com/in/david-hyesung-lee/" title="" target="_blank" rel="noreferrer noopener">LinkedIn - DavidHyesungLee</a>
-        </div>
-        <div className="contactrow">
-          <img
-            className="icon"
-            src="./assets/Icons/github.png"
-            alt="this is a github icon"
-          />
-          <a className="contactinfo" href="https://github.com/DvdHLee" title="" target="_blank" rel="noreferrer noopener">https://github.com/DvdHLee</a>
-        </div>
-        <div className="contactrow">
-          <img
-            className="icon"
-            src="./assets/Icons/resume.png"
-            alt="this is a resume icon"
-          />
-          <a className="contactinfo" href="https://drive.google.com/file/d/1JBfBcH-nFSr1MUY4jOakQfIkx6GzTukU/view?usp=sharing" title="" target="_blank" rel="noreferrer noopener">Resume Link</a>
+      <div className="contactdiv">
+        <ContactUs></ContactUs>
+        <div className="iconlinks">
+          <button className="mailbutton" onClick={clickedmail}>
+            <img className="contactlinkimg" src="./assets/Icons/mail.png" alt="linkedin icon"></img>
+          </button>
+          <a className="contactlink" href="https://www.linkedin.com/in/david-hyesung-lee/" title="" target="_blank" rel="noreferrer noopener">
+            <img className="contactlinkimg" src="./assets/Icons/linkedin.png" alt="linkedin icon"></img>
+          </a>
+          <a href="https://github.com/DvdHLee" title="" target="_blank" rel="noreferrer noopener">
+            <img className="contactlinkimg" src="./assets/Icons/github.png" alt="linkedin icon"></img>
+          </a>
         </div>
       </div>
     </div>

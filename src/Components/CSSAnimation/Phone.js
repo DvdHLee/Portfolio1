@@ -11,19 +11,19 @@ const Phone = props => {
                 <div className="appsrow">
                     <div className="app">
                         <div id="mcapp">
-                            <img id="mcappimg" src="/assets/Icons/mclogo.png" alt="mc logo"></img>
+                            <img id="mcappimg" src="./assets/Icons/mclogo.png" alt="mc logo"></img>
                         </div>
                     </div>
                     <div className="app">
                         <div id="portapp">
-                            <img id="portappimg" src="/assets/Icons/portfolio.svg" alt="mc logo"></img>
+                            <img id="portappimg" src="./assets/Icons/portfolio.svg" alt="mc logo"></img>
                         </div>
                     </div>
                 </div>
                 <div className="appsrow">
                     <div className="app">
                         <div id="a4aapp">
-                            <img id="a4aappimg" src="/assets/Icons/africair.png" alt="africair logo"></img>
+                            <img id="a4aappimg" src="./assets/Icons/africair.png" alt="africair logo"></img>
                         </div>
                     </div>
                     <div className="app"></div>

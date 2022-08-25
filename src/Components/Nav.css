@@ -29,10 +29,10 @@
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 2px;
+  height: 1px;
   bottom: 5px;
   left: 0;
-  background-color: #444444;
+  background-color: #757575;
   transform-origin: bottom right;
   transition: transform 0.2s ease-out;
 }
@@ -40,9 +40,9 @@
 .button:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
-  background-color: #aaaaaa;
+  background-color: #757575;
 }
 
 .button:hover {
-  color:#aaaaaa;
+  color:#757575;
 }
