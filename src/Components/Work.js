@@ -79,7 +79,7 @@ const Work = (props) => {
               Twitter! The API includes database management for users, tweets, and hashtags, as well as a rudimentary
               validation system. This application was built using Java, SQL, Spring Boot, and Postgres.
             </p>
-            <a className="workrightlink" href="https://github.com/fasttrackd-student-work/spring-assessment-social-media-sprint-7-2022-team-2" title="" target="_blank" rel="noreferrer noopener">
+            <a className="workrightlink" href="https://github.com/DvdHLee/twitterAPI" title="" target="_blank" rel="noreferrer noopener">
               <img src="./assets/Icons/github.png" alt="github icon" width="33px" height="33px"></img>
             </a>
           </div>
