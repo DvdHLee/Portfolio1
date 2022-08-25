@@ -61,13 +61,13 @@ const Work = (props) => {
               developed to meet the needs of a developing continent with incredible savings.
             </p>
             <a className="workrightlink" href="https://drive.google.com/file/d/16ws097UPsKGsoiWp0mY3CRUhREOfvSxP/view?usp=sharing" title="" target="_blank" rel="noreferrer noopener">
-              <img src="../assets/Icons/link.png" alt="github icon" width="40px" height="40px"></img>
+              <img src="./assets/Icons/link.png" alt="github icon" width="40px" height="40px"></img>
             </a>
           </div>
         </div>
         <div className="divider" />
         <div className="workentry">
-          <img className="workimg" src="../assets/Icons/twitterapisnapshot.png" alt="twitter api snapshot"></img>
+          <img className="workimg" src="./assets/Icons/twitterapisnapshot.png" alt="twitter api snapshot"></img>
           <div className="content">
             <p className="workentrytitle">Twitter API</p>
             <div className="details">
@@ -80,13 +80,13 @@ const Work = (props) => {
               validation system. This application was built using Java, SQL, Spring Boot, and Postgres.
             </p>
             <a className="workrightlink" href="https://github.com/fasttrackd-student-work/spring-assessment-social-media-sprint-7-2022-team-2" title="" target="_blank" rel="noreferrer noopener">
-              <img src="../assets/Icons/github.png" alt="github icon" width="33px" height="33px"></img>
+              <img src="./assets/Icons/github.png" alt="github icon" width="33px" height="33px"></img>
             </a>
           </div>
         </div>
         <div className="divider" />
         <div className="workentry">
-          <img className="workimg" src="../assets/Icons/tasnapshot.png" alt="twitter api snapshot"></img>
+          <img className="workimg" src="./assets/Icons/tasnapshot.png" alt="twitter api snapshot"></img>
           <div className="content">
             <p className="workentrytitle">Totus Alias</p>
             <div className="details">
@@ -99,7 +99,7 @@ const Work = (props) => {
               online Chess Website, and a ToDo List web application.
             </p>
             <a className="workrightlink" href="https://github.com/Totus-Alias" title="" target="_blank" rel="noreferrer noopener">
-              <img src="../assets/Icons/github.png" alt="github icon" width="33px" height="33px"></img>
+              <img src="./assets/Icons/github.png" alt="github icon" width="33px" height="33px"></img>
             </a>
           </div>
         </div>
