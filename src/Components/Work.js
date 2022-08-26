@@ -30,6 +30,27 @@ const Work = (props) => {
         </div>
         <div className="divider" />
         <div className="workentry">
+          <img className="workimg" src="./assets/Icons/whosnapshot.png" alt="whos who snapshot"></img>
+          <div className="content">
+            <p className="workentrytitle">Who's Who?</p>
+            <div className="details">
+              <p className="year">2022</p>
+              <p className="summary">Spotify Artist Guessing Game</p>
+            </div>
+            <p className="description">
+              Who's who is a simple game where you listen to songs and try to guess the artist! It has three difficulty levels and ten genres to choose from.
+              It is a frontend application built with React and the Spotify API, and it is deployed in Vercel.
+            </p>
+            <a className="workleftlink" href="https://whos-who.vercel.app/" title="" target="_blank" rel="noreferrer noopener">
+              <img src="./assets/Icons/link.png" alt="link icon" width="40px" height="40px"></img>
+            </a>
+            <a className="workrightlink" href="https://github.com/DvdHLee/Who-s-who.git" title="" target="_blank" rel="noreferrer noopener">
+              <img src="./assets/Icons/github.png" alt="github icon" width="33px" height="33px"></img>
+            </a>
+          </div>
+        </div>
+        <div className="divider" />
+        <div className="workentry">
           <img className="workimg" src="./assets/Icons/portfoliosnapshot.png" alt="portfolio snapshot"></img>
           <div className="content">
             <p className="workentrytitle">Porfolio</p>

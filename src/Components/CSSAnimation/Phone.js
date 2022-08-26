@@ -26,7 +26,11 @@ const Phone = props => {
                             <img id="a4aappimg" src="./assets/Icons/africair.png" alt="africair logo"></img>
                         </div>
                     </div>
-                    <div className="app"></div>
+                    <div className="app">
+                    <div id="whoapp">
+                            <img id="whoappimg" src="./assets/Icons/spotifylogo.png" alt="africair logo"></img>
+                        </div>
+                    </div>
                 </div>
                 <div className="appsrow">
                     <div className="app"></div>
@@ -41,11 +45,7 @@ const Phone = props => {
                     </div>
                     <div className="appsrow">
                         <a href="https://drive.google.com/file/d/16ws097UPsKGsoiWp0mY3CRUhREOfvSxP/view?usp=sharing" className="app" title="" target="_blank" rel="noreferrer noopener"><div></div></a>
-                        <a href="https://arizonacoderz.github.io/meal-chewser/" className="app" title="" target="_blank" rel="noreferrer noopener"><div></div></a>
-                    </div>
-                    <div className="appsrow">
-                        <a href="https://arizonacoderz.github.io/meal-chewser/" className="app" title="" target="_blank" rel="noreferrer noopener"><div></div></a>
-                        <a href="https://arizonacoderz.github.io/meal-chewser/" className="app" title="" target="_blank" rel="noreferrer noopener"><div></div></a>
+                        <a href="https://whos-who.vercel.app/" className="app" title="" target="_blank" rel="noreferrer noopener"><div></div></a>
                     </div>
                 </div>
             </div>
