@@ -11,7 +11,7 @@ const Book = props => {
             <div className="page"></div>
             <div className="page"></div>
             <div className="page"></div>
-            <a className="contentpage" href="https://drive.google.com/file/d/1JBfBcH-nFSr1MUY4jOakQfIkx6GzTukU/view?usp=sharing" title="" target="_blank" rel="noreferrer noopener">
+            <a className="contentpage" href="https://drive.google.com/file/d/1DTO7Sv9kJSvgK6LwRjastjTO0gzAAIPl/view?usp=sharing" title="" target="_blank" rel="noreferrer noopener">
                 <img src='./assets/Icons/myresume.png' alt="my resume"></img>
             </a>
             <div className="back-cover"></div>
