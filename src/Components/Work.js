@@ -30,6 +30,25 @@ const Work = (props) => {
         </div>
         <div className="divider" />
         <div className="workentry">
+          <img className="workimg" src="./assets/Icons/companyorgsnapshot.png" alt="company organizer snapshot"></img>
+          <div className="content">
+            <p className="workentrytitle">Company Organizer</p>
+            <div className="details">
+              <p className="year">2022</p>
+              <p className="summary">A hub for your company</p>
+            </div>
+            <p className="description">
+              Company Organizer is a full stack application built to act as a hub for a company. It has basic login and authentication as well as 
+              two privilege levels: an admin and a regular user. Admins are capable of creating and editing new users, teams, projects, and announcements, while
+              users can view their projects, teams, and company announcements. The front-end was built using React, and the back-end uses Postgres and Spring Boot.
+            </p>
+            <a className="workrightlink" href="https://github.com/DvdHLee/Company-Organizer" title="" target="_blank" rel="noreferrer noopener">
+              <img src="./assets/Icons/github.png" alt="github icon" width="33px" height="33px"></img>
+            </a>
+          </div>
+        </div>
+        <div className="divider" />
+        <div className="workentry">
           <img className="workimg" src="./assets/Icons/whosnapshot.png" alt="whos who snapshot"></img>
           <div className="content">
             <p className="workentrytitle">Who's Who?</p>
