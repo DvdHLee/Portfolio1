@@ -28,7 +28,7 @@ const Phone = props => {
                     </div>
                     <div className="app">
                     <div id="whoapp">
-                            <img id="whoappimg" src="./assets/Icons/spotifylogo.png" alt="africair logo"></img>
+                            <img id="whoappimg" src="./assets/Icons/spotifylogo.png" alt="spotify logo"></img>
                         </div>
                     </div>
                 </div>
