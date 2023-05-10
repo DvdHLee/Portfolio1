@@ -18,7 +18,7 @@ const Contact = (props) => {
           <button className="mailbutton" onClick={clickedmail}>
             <img className="contactlinkimg" src="./assets/Icons/mail.png" alt="linkedin icon"></img>
           </button>
-          <a className="contactlink" href="https://www.linkedin.com/in/david-hyesung-lee/" title="" target="_blank" rel="noreferrer noopener">
+          <a className="contactlink" href="https://www.linkedin.com/in/dvdhyelee/" title="" target="_blank" rel="noreferrer noopener">
             <img className="contactlinkimg" src="./assets/Icons/linkedin.png" alt="linkedin icon"></img>
           </a>
           <a href="https://github.com/DvdHLee" title="" target="_blank" rel="noreferrer noopener">
