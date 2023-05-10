@@ -8,7 +8,7 @@ const Work = (props) => {
       <div className="workbody">
         <p className="worktitle">Work</p>
         <div className="workentry">
-          <img className="workimg" src="./assets/Icons/ISBsnapshot.png" alt="ISB snapshot"></img>
+          <img className="workimg" src="./assets/Icons/ISBsnapshot.PNG" alt="ISB snapshot"></img>
           <div className="content">
             <p className="workentrytitle">Intraday Scalping Backtester</p>
             <div className="details">
