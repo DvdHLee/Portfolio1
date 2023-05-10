@@ -8,6 +8,24 @@ const Work = (props) => {
       <div className="workbody">
         <p className="worktitle">Work</p>
         <div className="workentry">
+          <img className="workimg" src="./assets/Icons/ISBsnapshot.png" alt="ISB snapshot"></img>
+          <div className="content">
+            <p className="workentrytitle">Intraday Scalping Backtester</p>
+            <div className="details">
+              <p className="year">2023</p>
+              <p className="summary">A Day Trading Strategy Tester</p>
+            </div>
+            <p className="description">
+              ISB is a python program designed to back test intraday trading strategies based on user input conditions. It pulls data directly from
+              Yahoo Finance to simulate trades and projected output. 
+            </p>
+            <a className="workrightlink" href="https://github.com/DvdHLee/ISB" title="" target="_blank" rel="noreferrer noopener">
+              <img src="./assets/Icons/github.png" alt="github icon" width="33px" height="33px"></img>
+            </a>
+          </div>
+        </div>
+        <div className="divider" />
+        <div className="workentry">
           <img className="workimg" src="./assets/Icons/mcsnapshot.png" alt="mc snapshot"></img>
           <div className="content">
             <p className="workentrytitle">Meal Chewser</p>
