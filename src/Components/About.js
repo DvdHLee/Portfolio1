@@ -43,7 +43,7 @@ const About = (props) => {
             <p className="name">David Hyesung Lee</p>
             <div>
               <img className="profileicon" src="./assets/Icons/ageicon.png" alt="this is an age icon"></img>
-              <span>25 Years</span>
+              <span>26 Years</span>
             </div>
             <div>
               <img className="profileicon" src="./assets/Icons/locationicon.png" alt="this is a location icon"></img>
