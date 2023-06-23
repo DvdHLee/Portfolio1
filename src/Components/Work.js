@@ -17,7 +17,7 @@ const Work = (props) => {
             </div>
             <p className="description">
               More or Less is a simple trivia game where you guess "more" or "less" on a given numerical statement. You can play 5 rounds per day 
-              and various statistics are logged autimatically. Hard mode coming soon!
+              and various statistics are logged automatically. Hard mode coming soon!
             </p>
             <a className="workleftlink" href="https://dvdhlee.github.io/Moreorless/" title="" target="_blank" rel="noreferrer noopener">
               <img src="./assets/Icons/link.png" alt="link icon" width="40px" height="40px"></img>
