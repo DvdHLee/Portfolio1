@@ -8,7 +8,7 @@ const Work = (props) => {
       <div className="workbody">
         <p className="worktitle">Work</p>
         <div className="workentry">
-          <img className="workimg" src="./assets/Icons/molsnapshot.PNG" alt="more or less snapshot"></img>
+          <img className="workimg" src="./assets/Icons/moreorlesssnapshot.PNG" alt="more or less snapshot"></img>
           <div className="content">
             <p className="workentrytitle">More or Less</p>
             <div className="details">
