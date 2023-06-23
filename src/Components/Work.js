@@ -8,6 +8,27 @@ const Work = (props) => {
       <div className="workbody">
         <p className="worktitle">Work</p>
         <div className="workentry">
+          <img className="workimg" src="./assets/Icons/moreorlesssnapshot.PNG" alt="more or less snapshot"></img>
+          <div className="content">
+            <p className="workentrytitle">More or Less</p>
+            <div className="details">
+              <p className="year">2023</p>
+              <p className="summary">A Trivia Game</p>
+            </div>
+            <p className="description">
+              More or Less is a simple trivia game where you guess "more" or "less" on a given numerical statement. You can play 5 rounds per day 
+              and various statistics are logged autimatically. Hard mode coming soon!
+            </p>
+            <a className="workleftlink" href="https://dvdhlee.github.io/Moreorless/" title="" target="_blank" rel="noreferrer noopener">
+              <img src="./assets/Icons/link.png" alt="link icon" width="40px" height="40px"></img>
+            </a>
+            <a className="workrightlink" href="https://github.com/DvdHLee/Moreorless" title="" target="_blank" rel="noreferrer noopener">
+              <img src="./assets/Icons/github.png" alt="github icon" width="33px" height="33px"></img>
+            </a>
+          </div>
+        </div>
+        <div className="divider" />
+        <div className="workentry">
           <img className="workimg" src="./assets/Icons/ISBsnapshot.PNG" alt="ISB snapshot"></img>
           <div className="content">
             <p className="workentrytitle">Intraday Scalping Backtester</p>
