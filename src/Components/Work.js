@@ -28,6 +28,7 @@ const Work = (props) => {
             </a>
           </div>
         </div>
+        <div className="divider" />
         <div className="workentry">
           <img className="workimg" src="./assets/Icons/moreorlesssnapshot.PNG" alt="more or less snapshot"></img>
           <div className="content">
