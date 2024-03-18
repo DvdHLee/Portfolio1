@@ -8,6 +8,27 @@ const Work = (props) => {
       <div className="workbody">
         <p className="worktitle">Work</p>
         <div className="workentry">
+          <img className="workimg" src="./assets/Icons/tttsnapshot.PNG" alt="tic tac toe snapshot"></img>
+          <div className="content">
+            <p className="workentrytitle">Tic Tac Toe</p>
+            <div className="details">
+              <p className="year">2024</p>
+              <p className="summary">A Simple "AI"</p>
+            </div>
+            <p className="description">
+              This simple application lets you play against another player, a random bot, or a "smart" bot in the classic game of Tic Tac Toe. The 
+              smart bot utilizes a backtracking algorithm known as minimax to direct decision making to find the optimal move for any situation. Test
+              your skills against the bots or pit them against each other!
+            </p>
+            <a className="workleftlink" href="https://dvdhlee.github.io/TicTacToe/" title="" target="_blank" rel="noreferrer noopener">
+              <img src="./assets/Icons/link.png" alt="link icon" width="40px" height="40px"></img>
+            </a>
+            <a className="workrightlink" href="https://github.com/DvdHLee/TicTacToe" title="" target="_blank" rel="noreferrer noopener">
+              <img src="./assets/Icons/github.png" alt="github icon" width="33px" height="33px"></img>
+            </a>
+          </div>
+        </div>
+        <div className="workentry">
           <img className="workimg" src="./assets/Icons/moreorlesssnapshot.PNG" alt="more or less snapshot"></img>
           <div className="content">
             <p className="workentrytitle">More or Less</p>
