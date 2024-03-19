@@ -199,6 +199,12 @@
   height: 450px;
 }
 
+.softwaresimg {
+  position: relative;
+  width: 650px;
+  height: 430px;
+}
+
 #whiteback {
   background-color: white;
 }

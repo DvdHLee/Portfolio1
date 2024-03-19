@@ -92,7 +92,7 @@ const About = (props) => {
           <div className="skillscategory">
             <p className="categorytitle">Software</p>
             <div className="skillscolumn">
-                <img className="skillimg" src="./assets/Icons/software.PNG" alt="this is softwares list"></img>
+                <img className="softwaresimg" src="./assets/Icons/software.PNG" alt="this is softwares list"></img>
             </div>
           </div>
         </div>
