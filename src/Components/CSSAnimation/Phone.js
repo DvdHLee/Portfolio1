@@ -35,12 +35,12 @@ const Phone = props => {
                 <div className="appsrow">
                     <div className="app">
                         <div id="appicon">
-                            <img src="./assets/Icons/ttticon.png" alt="tic tac toe logo"></img>
+                            <img id="appicon" src="./assets/Icons/ttticon.png" alt="tic tac toe logo"></img>
                         </div>
                     </div>
                     <div className="app">
                         <div id="appicon">
-                            <img src="./assets/Icons/moreorlessicon.png" alt="more or less logo"></img>
+                            <img id="appicon" src="./assets/Icons/moreorlessicon.PNG" alt="more or less logo"></img>
                         </div>
                     </div>
                 </div>
